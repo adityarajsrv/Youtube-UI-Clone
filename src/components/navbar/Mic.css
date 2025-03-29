@@ -1,0 +1,95 @@
+.custom-alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .custom-alert-box {
+    background-color: #313131;
+    padding: 20px;
+    border-radius: 22px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+    height: 300px;
+    width: 500px;
+  }
+  
+  .custom-alert-message {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  .mic-animation-container {
+    margin-bottom: 20px;
+  }
+  
+  .mic-button-animated {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: default;
+  }
+  
+  .mic-icon {
+    font-size: 100px; /* Controls the size */
+    color: #ff5252; /* Red color for the mic */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .listening-animation {
+    animation: pulse 1s infinite; /* Pulsing effect while listening */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      color: #ff5252;
+    }
+    50% {
+      transform: scale(1.2);
+      color: #ff7373;
+    }
+    100% {
+      transform: scale(1);
+      color: #ff5252;
+    }
+  }  
+  
+  .custom-alert-button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .custom-alert-button:hover {
+    background-color: #c9302c;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
