@@ -1,9 +1,8 @@
 import { useEffect, useState, useCallback } from 'react';
-// import { RiMore2Fill } from '@remixicon/react';
 import './Hero.css';
+import { YOUTUBE_API_KEY } from '../../config'; 
 
 const regionCodes = ['US', 'IN', 'GB', 'CA', 'JP', 'AU', 'CN'];
-const YOUTUBE_API_KEY = 'AIzaSyDo-ngiY8dc2S9EF3biunlTcsdHIVLJ1Ps';
 
 const generateApiUrl = (regionCode, genre, pageToken = null) => {
   return `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=9&type=video&safeSearch=strict&regionCode=${regionCode}&relevanceLanguage=en&q=${genre}&key=${YOUTUBE_API_KEY}${pageToken ? `&pageToken=${pageToken}` : ''}`;
