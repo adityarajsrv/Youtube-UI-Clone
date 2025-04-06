@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 import './Hero.css';
-import { YOUTUBE_API_KEY } from '../../config'; 
+import { YOUTUBE_API_KEY } from './secret_key.js'; 
 
 const regionCodes = ['US', 'IN', 'GB', 'CA', 'JP', 'AU', 'CN'];
 
