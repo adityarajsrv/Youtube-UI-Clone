@@ -13,7 +13,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [nextPageToken, setNextPageToken] = useState(null);
-  const [genre, setGenre] = useState(''); 
+  const [genre, setGenre] = useState('music'); 
 
   const fetchChannelLogo = async (channelId) => {
     try {
