@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from 'react';
 import './hero.css';
 // import { YOUTUBE_API_KEY } from './secret_key.js'; 
 
-const YOUTUBE_API_KEY = import.meta.env.YOUTUBE_API_KEY;
+const YOUTUBE_API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
 const regionCodes = ['US', 'IN', 'GB', 'CA', 'JP', 'AU', 'CN'];
 
 const generateApiUrl = (regionCode, genre, pageToken = null) => {
