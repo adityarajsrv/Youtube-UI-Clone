@@ -1,4 +1,4 @@
-# 📺 YouTube UI Clone
+# YouTube UI Clone
 
 ![React](https://img.shields.io/badge/Built%20with-React-blue?logo=react)
 ![YouTube API](https://img.shields.io/badge/API-YouTube%20Data%20v3-red?logo=youtube)
