@@ -14,9 +14,8 @@
 
 ---
 Frontend:
-  - React.js (Hooks, SPA)
-  - Vite (build tool)
-  - CSS Modules / Custom CSS
+  - React.js
+  - Vanilla CSS
   - Intersection Observer API
 
 APIs:
