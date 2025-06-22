@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/Built%20with-React-blue?logo=react)
 ![YouTube API](https://img.shields.io/badge/API-YouTube%20Data%20v3-red?logo=youtube)
 ![Status](https://img.shields.io/badge/Project-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 > A **YouTube UI clone** built using **React.js** and the **YouTube Data API v3**, displaying trending videos by region and category with infinite scroll.
 
